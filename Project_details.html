@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - Lipsa Routray</title>
+  <style>
+    /* CSS styling for the project page */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .project {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 20px;
+    }
+    .project:last-child {
+      border: none;
+    }
+    .project-title {
+      font-size: 1.8em;
+      margin: 0 0 10px;
+      color: #333;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    .project-title:hover {
+      color: #007BFF;
+    }
+    .project-image {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .project-details {
+      color: #555;
+    }
+    .project-details h3 {
+      margin-bottom: 5px;
+      color: #333;
+    }
+    .project-details p,
+    .project-details ul {
+      margin: 0 0 15px;
+      color: #666;
+    }
+    .project-details ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Project 1: Cockpit Design for EV Buses in India -->
+    <div class="project">
+      <h2 class="project-title">Cockpit Design for EV Buses in India</h2>
+      <img src="images/cockpit_bus.jpg" alt="Cockpit Design for EV Buses in India" class="project-image" />
+      <div class="project-details">
+        <h3>Context &amp; Role</h3>
+        <p>
+          This project focuses on designing and validating user-centered dashboards for electric buses, with an emphasis on enhancing usability, safety, and driver experience in the Indian context. By addressing the unique challenges faced by bus drivers and stakeholders, the research integrates methodologies and theoretical frameworks from human-computer interaction (HCI), cognitive psychology, and user-centered design (UCD).  
+        
+        
+        </p>
+        <h3>Challenges</h3>
+        <ul>
+          <li><strong>Complex Driver Tasks:</strong> Integrating real-time monitoring of battery levels, route navigation, and managing traffic hazards.</li>
+          <li><strong>Varying Road Conditions:</strong> Adapting the interface to diverse traffic patterns and unpredictable road behaviors.</li>
+        </ul>
+        <h3>Actions Taken</h3>
+        <ul>
+          <li>Developed a high-fidelity prototype through iterative design cycles: user research, wireframing, and simulator testing.</li>
+          <li>Integrated real-time sensor data (battery, motor status) into a simplified digital dashboard.</li>
+          <li>Conducted extensive user feedback sessions with bus drivers to refine the UI and minimize cognitive load.</li>
+        </ul>
+        <h3>Results</h3>
+        <ul>
+          <li>Reduced driver distraction and improved key response times (e.g., faster recognition of battery warnings).</li>
+          <li>Enhanced overall safety and user acceptance, proving the feasibility of large-scale EV bus deployment.</li>
+        </ul>
+        <h3>Lessons Learned</h3>
+        <ul>
+          <li>Merging hardware-electronics expertise with HCI is critical for an effective design.</li>
+          <li>Field observations and iterative feedback cycles are indispensable for real-world solutions.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Project 2: Banking Application for Financial Services -->
+    <div class="project">
+      <h2 class="project-title">Voiced based Banking Application for Financial Services</h2>
+      <img src="images/Banking_App.png" alt="Banking Application ASR" class="project-image" />
+      <div class="project-details">
+        <h3>Context &amp; Role</h3>
+        <p>
+    This project evaluates a voice-based Conversational AI prototype designed
+      to facilitate banking transactions—specifically, transferring Rs 5000 to a
+      beneficiary named "Ravi Kumar." Developed using HTML5, CSS3, Bootstrap, and
+      JavaScript, the prototype employs the Wizard-of-Oz technique to simulate
+      natural language understanding. The study involved remote usability testing
+      with 40 participants to assess the system's usability, attractiveness, and
+      intuitiveness.
+        </p>
+        <h3>Prototype Design &amp; Dialog Structure</h3>
+    <ul>
+      <li>
+        <strong>Application Flow:</strong> The system guides users through a
+        banking transaction via a flowchart-based interface.
+      </li>
+      <li>
+        <strong>Dialog Prompts:</strong> Three types of prompts are used:
+        <ul>
+          <li>
+            <em>Default Prompts:</em> Instructions provided at each step (e.g.,
+            "Please narrate your name" vs. "Your name?").
+          </li>
+          <li>
+            <em>Timeout Prompts:</em> Activated when no response is detected.
+          </li>
+          <li>
+            <em>Invalid-Input Prompts:</em> Played when incorrect inputs are given,
+            offering corrective guidance.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Interface Variants:</strong> Two prototype versions were created:
+        <ul>
+          <li>
+            <em>Prototype Version A:</em> Features a dark background, detailed
+            default prompts, and a white orb that signals listening mode.
+          </li>
+          <li>
+            <em>Prototype Version B:</em> Uses a light background with minimal
+            default prompts and similar visual cues.
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>Challenges</h3>
+    <ul>
+      <li>Ensuring a natural dialogue flow while managing multi-turn conversations.</li>
+      <li>
+        Accurately capturing and processing domain-specific banking terminology.
+      </li>
+      <li>
+        Balancing the detail of dialog prompts with visual design to maintain
+        user engagement.
+      </li>
+      <li>
+        Conducting remote usability tests using video conferencing tools and a
+        Wizard-of-Oz setup.
+      </li>
+    </ul>
+
+    <h3>Actions Taken</h3>
+    <ul>
+      <li>
+        Implemented a Wizard-of-Oz framework, triggering pre-recorded dialog
+        prompts via designated keystrokes to simulate AI behavior.
+      </li>
+      <li>
+        Developed two distinct interface versions to assess the impact of dialog
+        prompt style and background design on user experience.
+      </li>
+      <li>
+        Conducted a comprehensive user study with 40 participants, using a series
+        of pre- and post-interaction questionnaires:
+        <ul>
+          <li>Single Ease Questionnaire (SEQ) to gauge task ease.</li>
+          <li>System Usability Scale (SUS) for overall usability.</li>
+          <li>
+            AttrakDiff’s attractiveness scale to measure efficiency, enjoyment, and
+            appeal.
+          </li>
+          <li>INTUI questionnaire to assess intuitiveness.</li>
+        </ul>
+      </li>
+      <li>
+        Analyzed both quantitative scores (e.g., SUS scores of 92.25 and 88.63)
+        and qualitative user feedback to determine system performance.
+      </li>
+    </ul>
+
+    <h3>Results &amp; Findings</h3>
+    <ul>
+      <li>
+        Participants rated the system as highly usable, attractive, and intuitive,
+        with SEQ and SUS scores indicating an excellent user experience.
+      </li>
+      <li>
+        Interface Version A received slightly higher ratings in usability and
+        overall satisfaction compared to Version B.
+      </li>
+      <li>
+        The study demonstrates that voice-based conversational AI can be a
+        viable interface for banking applications when backed by robust natural
+        language understanding.
+      </li>
+    </ul>
+
+    <h3>Lessons Learned</h3>
+    <ul>
+      <li>
+        Detailed, descriptive prompts may enhance user satisfaction, though minimal
+        prompts can also be effective depending on design context.
+      </li>
+      <li>
+        Remote usability testing using the Wizard-of-Oz method can yield valuable
+        insights, but further testing in real-world environments (e.g., at ATMs)
+        is recommended.
+      </li>
+      <li>
+        Balancing system performance, security, and natural language processing is
+        crucial for deploying conversational AI in sensitive domains like banking.
+      </li>
+      <li>
+        The findings support further investment in conversational AI for banking,
+        with potential extensions to enhance accessibility (e.g., for the visually
+        impaired) and support hands-free interactions.
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- Project 4: AgroAssam (Agricultural Advisory System for Assam) -->
+<div class="project">
+    <h2 class="project-title">
+        Enhancement of AGROASSAM: A Web Based Assamese Speech Recognition Application for Retrieving Agricultural Commodity Price and Weather Information
+    </h2>
+    <img src="images/agroassam.jpg" alt="AgroAssam Web Application" class="project-image" />
+    <div class="project-details">
+      <h3>Context &amp; Role</h3>
+      <p>
+        AgroAssam is a web-based speech recognition application developed to help users retrieve the latest prices of agricultural commodities and weather-related information in the Assamese language. By extracting commodity price data from the AGMARKNET website and weather data from the IMD website—both updated daily by the Government of India—the system adapts an existing phone-based voice query solution to a modern web interface.
+      </p>
+  
+      <h3>Experimental Setup &amp; ASR Performance</h3>
+      <ul>
+        <li>
+          <strong>Data Collection:</strong> 
+          Speech data was gathered in real field conditions from native Assamese speakers. This involved:
+          <ul>
+            <li>30 hours of isolated commodity and district names from 885 speakers.</li>
+            <li>3 hours of phonetically balanced sentences from 25 speakers.</li>
+            <li>Additional continuous speech recordings from 27 speakers (totaling 5658 files).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Acoustic Modeling:</strong>
+          Two modeling techniques were explored using the Kaldi toolkit:
+          <ul>
+            <li><em>GMM-HMM:</em> Achieved WERs of 10.31% for commodity names and 5.16% for district names.</li>
+            <li><em>DNN-HMM:</em> Improved WERs to 7.79% for commodities and 4.98% for district names.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Noise Handling:</strong>
+          The system employed Zero Frequency Filtered Signal (ZFFS) techniques to effectively separate foreground speech from background noise.
+        </li>
+      </ul>
+  
+      <h3>Application Design</h3>
+      <ul>
+        <li>
+          On accessing the application URL, users are greeted with a welcome prompt and asked to state the desired district.
+        </li>
+        <li>
+          Upon successful recognition of the district, users choose between retrieving agricultural commodity prices or weather information.
+        </li>
+        <li>
+          For commodity queries, after the commodity name is recognized, the system checks the district-commodity combination in the database and displays the modal price.
+        </li>
+        <li>
+          For weather queries, the system retrieves current and upcoming weather details for the specified district.
+        </li>
+        <li>
+          The back-end ASR modules are developed with state-of-the-art acoustic modeling approaches, ensuring accurate recognition despite channel and noise variations.
+        </li>
+      </ul>
+  
+      <h3>Results &amp; Impact</h3>
+      <ul>
+        <li>
+          The DNN-HMM based system significantly reduced the word error rate, leading to more accurate recognition of both commodity and district names.
+        </li>
+        <li>
+          The integration into a web interface demonstrates that systems designed for telephonic voice queries can be effectively adapted for web-based platforms without compromising performance.
+        </li>
+        <li>
+          AgroAssam has the potential for deployment in public kiosks and digital information centers, thereby supporting farmers with timely access to essential agricultural and weather information in their native language.
+        </li>
+      </ul>
+  
+      <h3>Conclusion</h3>
+      <p>
+        AgroAssam successfully bridges the gap between traditional phone-based voice query systems and modern web interfaces. By leveraging advanced ASR techniques and a robust experimental setup, the project provides a reliable solution for retrieving vital information in Assamese, thus empowering the agrarian community and contributing to the digital transformation initiatives in India.
+      </p>
+    </div>
+  </div>
+  
+
+
+    <!-- Project 5: SIFA (Speech Interface for Form-Filling Application) -->
+    <div class="project">
+      <h2 class="project-title">SIFA (Speech Interface for Form-Filling Application)</h2>
+      <img src="images/SiFA.png" alt="SIFA Form-Filling Application" class="project-image" />
+      <div class="project-details">
+        <h3>Context &amp; Role</h3>
+        <p>
+          Developed at IIT Bhubaneswar, SIFA automates form-filling in five Indian languages (Hindi, Odia, Bengali, Assamese, Telugu).
+          I contributed to designing the acoustic model for Odia language and integrating a custom lexicon for all the respective fields of the form.
+        </p>
+        <h3>Challenges</h3>
+        <ul>
+          <li><strong>Data Inconsistency:</strong> Handling varied audio quality and misaligned transcripts.</li>
+          <li><strong>Local Vocabulary:</strong> Incorporating domain-specific terms, such as district names and local expressions.</li>
+        </ul>
+        <h3>Actions Taken</h3>
+        <ul>
+          <li>Automated preprocessing pipelines to standardize sampling rates and clean transcripts.</li>
+          <li>Developed and integrated a custom lexicon into an end-to-end or CTC-based ASR model.</li>
+          <li>Employed shallow fusion with a domain-adapted language model to enhance recognition accuracy.</li>
+        </ul>
+        <h3>Results</h3>
+        <ul>
+          <li>Achieved a significant reduction in Word Error Rate (WER), dropping from 30% to approximately 12%.</li>
+          <li>Improved the user experience, making form completion easier and faster for non-technical users.</li>
+        </ul>
+        <h3>Lessons Learned</h3>
+        <ul>
+          <li>High data quality is paramount in speech tasks; even minor errors can have a large impact.</li>
+          <li>Domain adaptation in both acoustic and language modeling dramatically improves handling of local vocabulary.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Optional JavaScript to allow toggling project details when the title is clicked.
+    // This improves usability on mobile devices.
+    document.querySelectorAll('.project-title').forEach(title => {
+      title.addEventListener('click', () => {
+        const details = title.nextElementSibling.nextElementSibling;
+        details.style.display = (details.style.display === 'none' || details.style.display === '') ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
